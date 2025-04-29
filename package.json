@@ -1,0 +1,27 @@
+{
+  "name": "proxytracernodejs",
+  "version": "1.0.0",
+  "description": "Node server tracer tool (js version)",
+  "main": "bin/index.js",
+  "scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiling99/ProxyTracer.git"
+  },
+  "author": "Hiling99 :)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiling99/ProxyTracer/issues"
+  },
+  "homepage": "https://github.com/hiling99/ProxyTracer#readme",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5"
+  }
+}
